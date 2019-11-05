@@ -115,3 +115,55 @@ module.exports.ping_api = (req, res) => {
 //     //     studenturl: studurl
 //     // });
 // });
+
+// const express = require('express')
+// const bodyParser = require('body-parser')
+// const app = express()
+// const path = require('path')
+// var kue = require('kue')
+//   , jobs = kue.createQueue();
+
+
+// app.use(bodyParser.urlencoded({ extended: false }))
+// // parse application/json
+// app.use(bodyParser.json())
+
+// app.post('/search_api', function (req, res) {
+
+//   function newJob(name) {
+//     name = name || 'Default_Name';
+//     var job = jobs.create('new job', {
+//       name: name
+//     });
+//     job
+//       .on('complete', function () {
+//         console.log('Job', job.id, 'with name', job.data.name, 'is    done');
+//       })
+//       .on('failed', function () {
+//         console.log('Job', job.id, 'with name', job.data.name, 'has  failed');
+//       });
+//     job.save();
+//   }
+//   jobs.process('new job', function (job, done) {
+
+//     /* carry out all the job function here */
+//     //what if I sleep here
+
+//     done && done();
+//   });
+//   // setInterval(function () {
+//   newJob('Send_Email');
+//   // }, 3000);
+//   res.json({ success: "yaya" });
+// });
+
+
+
+// //dummy code ends
+
+
+// app.listen(5000, function () {
+//   console.log("Live at Port 5000");
+// });
+
+// /* simple-job-queue.js */
