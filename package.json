@@ -1,0 +1,24 @@
+{
+  "name": "efficient-backend-service-for-continuous-user-pings",
+  "version": "1.0.0",
+  "description": "Responsive and efficient Back-end Service for flight searching.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rithiksingh098/Efficient-Backend-service-for-continuous-User-Pings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rithiksingh098/Efficient-Backend-service-for-continuous-User-Pings/issues"
+  },
+  "homepage": "https://github.com/rithiksingh098/Efficient-Backend-service-for-continuous-User-Pings#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "redis": "^2.8.0"
+  }
+}
